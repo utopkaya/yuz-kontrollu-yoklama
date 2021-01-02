@@ -68,8 +68,8 @@ class Ui_Dialog(object):
         import cv2
 
         isim =  self.ad.text()
-        numara =  self.ad.text()
-        cinsiyet =  self.ad.text()
+        numara =  self.numara.text()
+        cinsiyet =  self.cinsiyet.text()
         imgyol = "/images/"+isim+".jpg"
 
         kamera = cv2.VideoCapture(0)
